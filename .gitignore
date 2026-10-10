@@ -87,3 +87,7 @@ integrations/vibe/prompts/
 integrations/zcode/agents/
 integrations/dsh/agency-*/
 graphify-out/
+
+# Local install.sh output — never commit the generated OpenCode agent files.
+# (The hand-written dispatcher commands in .opencode/commands/ ARE tracked.)
+.opencode/agents/
